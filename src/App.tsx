@@ -187,8 +187,8 @@ export default function App() {
         currentRoomId={currentRoomId}
         onSelectRoom={handleSelectRoom}
         onCreateRoom={handleCreateRoom}
-        onRenameRoom={handleRenameRoom}   {/* NOVO */}
-        onDeleteRoom={handleDeleteRoom}   {/* NOVO */}
+        onRenameRoom={handleRenameRoom}
+        onDeleteRoom={handleDeleteRoom}
       />
 
       <main style={{ flex: 1, display: "flex", flexDirection: "column" }}>
